@@ -1,0 +1,5 @@
+{
+  "name": "claude-chat-ui",
+  "owner": { "name": "uta-a" },
+  "plugins": [{ "name": "compact-tools", "source": "./" }]
+}

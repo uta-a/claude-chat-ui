@@ -6,11 +6,21 @@ Claude Code のトランスクリプトで、ツール呼び出しと編集の�
 - Edit / Write は `編集しました foo.ts +2 -1` の形で、差分ブロックは隠す
 - 行をクリックするとそのまとまりを展開する。ctrl+o では従来どおり全表示
 
-## 使い方
+## インストール
+
+Claude Code のプロンプトで:
+
+```
+/plugin install compact-tools --marketplace uta-a/claude-chat-ui
+```
+
+`Add marketplace?` に `y` で答え、スコープを選ぶ。シェルからは:
 
 ```sh
-claude --plugin-dir /path/to/claude-chat-ui
+claude plugin install compact-tools --marketplace uta-a/claude-chat-ui
 ```
+
+開発中のフォルダから直接読み込む場合は `claude --plugin-dir /path/to/claude-chat-ui`。
 
 ## 開発
 
