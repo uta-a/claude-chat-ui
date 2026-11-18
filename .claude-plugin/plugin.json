@@ -1,6 +1,6 @@
 {
   "name": "compact-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ツール呼び出しと編集の表示を、連続分ごとに日本語の1行サマリーへまとめる",
   "types": "./types/index.d.ts"
 }

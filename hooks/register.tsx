@@ -218,11 +218,11 @@ const drawLine = (
   ].filter(x => x !== null)
 
   if (toggle === undefined) {
-    return <Box>{content}</Box>
+    return <Box paddingLeft={2}>{content}</Box>
   }
   const { head, isOpen } = toggle
   return (
-    <Box>
+    <Box paddingLeft={2}>
       <Button
         key={`compact-tools-${head}`}
         plain
